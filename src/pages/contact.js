@@ -1,7 +1,6 @@
 import Head from "next/head";
 import Menu from "@/components/Menu";
 
-
 export default function Home() {
   return (
     <>
@@ -13,7 +12,6 @@ export default function Home() {
       </Head>
       <main>
         <Menu />
-        <h1>Bem-vindo Eco</h1>
       </main>
     </>
   );
