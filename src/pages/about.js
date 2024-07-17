@@ -1,6 +1,7 @@
 import Head from "next/head";
 import Menu from "@/components/Menu";
 import AboutContent from "@/components/AboutContent";
+import Footer from "@/components/Footer";
 
 export default function Contact() {
   return (
@@ -12,8 +13,9 @@ export default function Contact() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
-        <Menu />
+      <Menu />
       <AboutContent />
+      <Footer />
       </main>
     </>
   );
