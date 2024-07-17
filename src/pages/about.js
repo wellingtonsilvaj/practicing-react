@@ -1,6 +1,6 @@
 import Head from "next/head";
 import Menu from "@/components/Menu";
-
+import AboutContent from "@/components/AboutContent";
 
 export default function Contact() {
   return (
@@ -13,7 +13,7 @@ export default function Contact() {
       </Head>
       <main>
         <Menu />
-        <h1>Bem-vindo Eco</h1>
+      <AboutContent />
       </main>
     </>
   );
